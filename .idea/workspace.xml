@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dd06c13-ef87-45b5-83c4-41af8212c626" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="24biAcmPYntAFC6MixHoqRdMBdV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wxpay" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86151\Desktop\WeChatPaySDK\src\main\java\com\springboot\modules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WeChatPaySdkApplication">
+    <configuration name="WeChatPaySdkApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.springboot.modules.WeChatPaySdkApplication" />
+      <module name="modules" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.springboot.modules.WeChatPaySdkApplication" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeChatPaySdkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="modules" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springboot.modules.WeChatPaySdkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxpayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="modules" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springboot.modules.WxpayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WeChatPaySdkApplication" />
+      <item itemvalue="Spring Boot.WeChatPaySdkApplication" />
+      <item itemvalue="Spring Boot.WxpayApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dd06c13-ef87-45b5-83c4-41af8212c626" name="Default Changelist" comment="" />
+      <created>1643905547521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643905547521</updated>
+      <workItem from="1643905548804" duration="4170000" />
+      <workItem from="1643909942617" duration="1717000" />
+      <workItem from="1643979695353" duration="38000" />
+      <workItem from="1644073450696" duration="154000" />
+      <workItem from="1644073627030" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="194" key="#Inspections" timestamp="1643908431129">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="586" y="194" key="#Inspections/0.0.1920.1032@0.0.1920.1032" timestamp="1643908431129" />
+    <state x="414" y="171" width="1186" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643907767174">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="414" y="171" width="1186" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1643907767174" />
+    <state x="765" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1643905861814">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="765" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1643905861814" />
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1643907751867">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1643907751867" />
+    <state x="740" y="270" key="FileChooserDialogImpl" timestamp="1643979732163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="740" y="270" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1643979732163" />
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1643935831681">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state x="490" y="171" key="Maven.ArtifactSearchDialog" timestamp="1643908503872">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="490" y="171" key="Maven.ArtifactSearchDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1643908503872" />
+    <state x="461" y="160" key="SettingsEditor" timestamp="1643906938705">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1643906938705" />
+    <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644073698029">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644073698029" />
+    <state x="334" y="90" key="new project wizard" timestamp="1643909743058">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="334" y="90" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1643909743058" />
+  </component>
+</project>
