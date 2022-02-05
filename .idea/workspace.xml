@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd06c13-ef87-45b5-83c4-41af8212c626" name="Default Changelist" comment="" />
+    <list default="true" id="7dd06c13-ef87-45b5-83c4-41af8212c626" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV2/util/WXPayV2Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV2/util/WXPayV2Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springboot/modules/wxPaySdkV2/config/MyV2Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springboot/modules/wxPaySdkV2/config/MyV2Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/springboot/modules/wxPaySdkV2/util/WXPayV2Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/springboot/modules/wxPaySdkV2/util/WXPayV2Util.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wxpay" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java框架/WxPaySDK-bladex" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,11 +77,11 @@
       <recent name="C:\Users\86151\Desktop\WeChatPaySDK\src\main\java\com\springboot\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeChatPaySdkApplication">
-    <configuration name="WeChatPaySdkApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.WxpayApplication">
+    <configuration name="WxpayApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.springboot.modules.WeChatPaySdkApplication" />
+      <option name="MAIN_CLASS_NAME" value="org.springboot.modules.WxpayApplication" />
       <module name="modules" />
       <shortenClasspath name="MANIFEST" />
       <method v="2">
@@ -92,13 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeChatPaySdkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="modules" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springboot.modules.WeChatPaySdkApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WxpayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="modules" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.springboot.modules.WxpayApplication" />
@@ -106,11 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.WeChatPaySdkApplication" />
-      <item itemvalue="Spring Boot.WeChatPaySdkApplication" />
-      <item itemvalue="Spring Boot.WxpayApplication" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,6 +118,7 @@
       <workItem from="1643979695353" duration="38000" />
       <workItem from="1644073450696" duration="154000" />
       <workItem from="1644073627030" duration="77000" />
+      <workItem from="1644073893448" duration="430000" />
     </task>
     <servers />
   </component>
@@ -136,54 +130,65 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="586" y="194" key="#Inspections/0.0.1920.1032@0.0.1920.1032" timestamp="1643908431129" />
-    <state x="414" y="171" width="1186" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643907767174">
+    <state x="414" y="171" width="1186" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644074010387">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="414" y="171" width="1186" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1643907767174" />
+    <state x="414" y="171" width="1186" height="765" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074010387" />
     <state x="765" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1643905861814">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="765" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1643905861814" />
-    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1643907751867">
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1644074007536">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1643907751867" />
-    <state x="740" y="270" key="FileChooserDialogImpl" timestamp="1643979732163">
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074007536" />
+    <state x="740" y="270" key="FileChooserDialogImpl" timestamp="1644074218887">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="270" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1643979732163" />
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1643935831681">
+    <state x="740" y="270" key="FileChooserDialogImpl/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074218887" />
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.0.center/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.0.left/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.0.right/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.1.center/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
-    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1643935831681">
+    <state width="1877" height="336" key="GridCell.Tab.1.left/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1644074326690">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1643935831681" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074326690" />
     <state x="490" y="171" key="Maven.ArtifactSearchDialog" timestamp="1643908503872">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -192,6 +197,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1643906938705" />
+    <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1644074320003">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644074320003" />
     <state x="763" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1644073698029">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
