@@ -247,9 +247,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1643906938705" />
-    <state x="2472" y="308" key="Vcs.Push.Dialog.v2" timestamp="1644076690046">
-      <screen x="1920" y="63" width="1920" height="1032" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1644135341539">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/1920.63.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1644135341539" />
     <state x="2472" y="308" key="Vcs.Push.Dialog.v2/1920.63.1920.1032/0.0.1920.1032@1920.63.1920.1032" timestamp="1644076690046" />
     <state x="92" y="92" width="1736" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1644074320003">
       <screen x="0" y="0" width="1920" height="1032" />
