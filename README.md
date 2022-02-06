@@ -29,7 +29,7 @@ V3版本接口代码位于wxPaySdkV3包中，个人使用只需要wxPaySdkV3/con
                 key   -> 私钥
                 ApiV3Key -> ApiV3密钥
                 NotifyUrl -> 回调地址（这里为默认回调地址，在构建方法中没有设置回调地址时会使用这里的回调地址）
-                CertStream -> 证书地址（本代码中使用的是绝对路径，证书名称为apiclient_cert.p12）
+                CertStream -> 证书地址（需要apiclient_cert.p12证书的绝对地址）
                 MerchantSerialNumber -> 证书序列号（需要apiclient_cert.pem证书的绝对地址）
                 MerchantPrivateKey -> 商户API私钥（需要apiclient_key.pem证书的绝对地址）
 
