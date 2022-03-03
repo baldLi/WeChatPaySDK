@@ -41,6 +41,13 @@ public abstract class WXPayV3Config {
      */
     public abstract String getApiV3Key();
 
+    /**
+     * 获取 登录密钥
+     *
+     * @return Secret
+     */
+    public abstract String getSecret();
+
 	/**
 	 * 回调接口地址
 	 *

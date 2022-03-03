@@ -4,6 +4,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springboot.modules.wxPaySdkV2.constant.WXPayV2Constants;
 import org.springboot.modules.wxPaySdkV2.server.IWXPayDomain;
+import org.springframework.stereotype.Service;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -15,6 +16,7 @@ import java.io.InputStream;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
+@Service
 public class MyV2Config extends WXPayV2Config {
 
 	/**
@@ -23,7 +25,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getAppID() {
-		return "";
+		return "wxe5003b0506231a6a";
 	}
 
 	/**
@@ -32,7 +34,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getMchID() {
-		return "";
+		return "1613234601";
 	}
 
 	/**
@@ -41,7 +43,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getKey() {
-		return "";
+		return "YueXiangHuTongsharedwheelchair12";
 	}
 
 	/**

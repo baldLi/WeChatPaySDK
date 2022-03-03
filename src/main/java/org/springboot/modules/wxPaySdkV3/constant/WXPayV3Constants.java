@@ -16,6 +16,12 @@ public class WXPayV3Constants {
 
 	public static final String BASIC_URL = "https://api.mch.weixin.qq.com/v3";
 
+	public static final String WECHAT_LOGIN = "https://api.weixin.qq.com/sns/jscode2session";
+
+	public static final String ACCESS_TOKEN = "https://api.weixin.qq.com/cgi-bin/token";
+
+	public static final String PHONE_NUMBER = "https://api.weixin.qq.com/wxa/business/getuserphonenumber?access_token=";
+
 	public static final String UNIFIED_ORDER = "/pay/transactions/jsapi";
 
 	public static final String QUERY_ORDER_OUT_TRADE_NO = "/pay/transactions/out-trade-no/";

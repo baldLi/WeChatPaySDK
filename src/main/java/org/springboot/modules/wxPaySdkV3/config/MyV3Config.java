@@ -3,7 +3,10 @@ package org.springboot.modules.wxPaySdkV3.config;
 import lombok.Data;
 import org.springboot.modules.wxPaySdkV3.auth.*;
 import org.springboot.modules.wxPaySdkV3.util.PemUtil;
+import org.springframework.stereotype.Service;
+import org.springframework.util.ResourceUtils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,33 +18,22 @@ import java.security.cert.X509Certificate;
  * @author 86151
  */
 @Data
+@Service
 public class MyV3Config extends WXPayV3Config {
 
-	/**
-	 * 应用ID
-	 * @return
-	 */
 	@Override
 	public String getAppID() {
-		return "";
+		return "wxe5003b0506231a6a";
 	}
 
-	/**
-	 * 商户号
-	 * @return
-	 */
 	@Override
 	public String getMchID() {
-		return "";
+		return "1613234601";
 	}
 
-	/**
-	 * 私钥
-	 * @return
-	 */
 	@Override
 	public String getKey() {
-		return "";
+		return "YueXiangHuTongsharedwheelchair12";
 	}
 
 	/**
@@ -50,7 +42,12 @@ public class MyV3Config extends WXPayV3Config {
 	 */
 	@Override
 	public String getApiV3Key() {
-		return "";
+		return "YueXiangHuTongsharedwheelchair12";
+	}
+
+	@Override
+	public String getSecret() {
+		return "1c248dfde72d639474e285250b00371d";
 	}
 
 	/**
@@ -98,6 +95,10 @@ public class MyV3Config extends WXPayV3Config {
 	public String getMerchantSerialNumber() throws IOException {
 		// 绝对路径
 		InputStream inputStream = new FileInputStream("C:\\apiclient_cert.pem");
+
+		// Resources路径
+//		File file = ResourceUtils.getFile("classpath:certificate/apiclient_cert.pem");
+//		InputStream inputStream = new FileInputStream(file);
 		X509Certificate cert = PemUtil.loadCertificate(inputStream);
 		return cert.getSerialNumber().toString(16);
 	}
@@ -112,9 +113,17 @@ public class MyV3Config extends WXPayV3Config {
 	public PrivateKey getMerchantPrivateKey() throws IOException {
 		// 绝对路径
 		InputStream inputStream = new FileInputStream("C:\\apiclient_key.pem");
+
+		// Resources路径
+//		File file = ResourceUtils.getFile("classpath:certificate/apiclient_key.pem");
+//		InputStream inputStream = new FileInputStream(file);
 		return PemUtil.loadPrivateKey(inputStream);
 	}
 
+	/**
+	 * 微信登录Code
+	 */
+	private String code;
 
 	/**
 	 * 支付详细内容
