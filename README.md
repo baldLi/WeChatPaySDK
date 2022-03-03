@@ -5,6 +5,9 @@
 		  1. MyV2Config.java与MyV3Config.java类中使用了Lombok方法，不使用请自行更改。
 		  2. 以下主要配置中所提到的证书地址均为绝对路径。
 
+	新增：
+		  1.V3接口中增加微信小程序登录接口，获取手机号接口（此为新版获取手机号接口）
+		  （新版获取手机号官方文档：[https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/getPhoneNumber.html]）
 ## V2版本接口说明
 V2版本接口代码位于wxPaySdkV2包中，个人使用只需要wxPaySdkV2/config/MyV2Config.java类中配置对应的需求参数。
 
