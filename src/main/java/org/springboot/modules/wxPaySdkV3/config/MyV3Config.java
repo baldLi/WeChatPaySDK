@@ -23,17 +23,17 @@ public class MyV3Config extends WXPayV3Config {
 
 	@Override
 	public String getAppID() {
-		return "wxe5003b0506231a6a";
+		return "";
 	}
 
 	@Override
 	public String getMchID() {
-		return "1613234601";
+		return "";
 	}
 
 	@Override
 	public String getKey() {
-		return "YueXiangHuTongsharedwheelchair12";
+		return "";
 	}
 
 	/**
@@ -42,12 +42,12 @@ public class MyV3Config extends WXPayV3Config {
 	 */
 	@Override
 	public String getApiV3Key() {
-		return "YueXiangHuTongsharedwheelchair12";
+		return "";
 	}
 
 	@Override
 	public String getSecret() {
-		return "1c248dfde72d639474e285250b00371d";
+		return "";
 	}
 
 	/**

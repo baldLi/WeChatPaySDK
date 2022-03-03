@@ -22,17 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd06c13-ef87-45b5-83c4-41af8212c626" name="Default Changelist" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/server/WXPayServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV2/config/MyV2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV2/config/MyV2Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/auth/ScheduledUpdateCertificatesVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/auth/ScheduledUpdateCertificatesVerifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/config/MyV3Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/config/MyV3Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/config/WXPayV3Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/config/WXPayV3Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/constant/WXPayV3Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/constant/WXPayV3Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/controller/WxPayV3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/controller/WxPayV3Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/server/WXPayV3Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/springboot/modules/wxPaySdkV3/server/WXPayV3Server.java" afterDir="false" />
-    </list>
+    <list default="true" id="7dd06c13-ef87-45b5-83c4-41af8212c626" name="Default Changelist" comment="1.优化V3接口代码，可直接在Controller类中private final WXPayServer wxPayV3Server;方法，不需要每次使用时实例化对象，缺点是回调地址字段需要手动填写。&#10;注意：V3接口一些方法回调地址必须填写，不填写会报错，例如V3统一下单接口，详细需要填写字段方法请自行查看官方文档。&#10;2.V3接口增加微信小程序登录接口，获取用户手机号接口（此为新版获取手机号接口）" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644135022074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.优化V3接口代码，可直接在Controller类中private final WXPayServer wxPayV3Server;方法，不需要每次使用时实例化对象，缺点是回调地址字段需要手动填写。&#10;注意：V3接口一些方法回调地址必须填写，不填写会报错，例如V3统一下单接口，详细需要填写字段方法请自行查看官方文档。&#10;2.V3接口增加微信小程序登录接口，获取用户手机号接口（此为新版获取手机号接口）">
+      <created>1646291132732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646291132732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="优化代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化代码" />
+    <MESSAGE value="1.优化V3接口代码，可直接在Controller类中private final WXPayServer wxPayV3Server;方法，不需要每次使用时实例化对象，缺点是回调地址字段需要手动填写。&#10;注意：V3接口一些方法回调地址必须填写，不填写会报错，例如V3统一下单接口，详细需要填写字段方法请自行查看官方文档。&#10;2.V3接口增加微信小程序登录接口，获取用户手机号接口（此为新版获取手机号接口）" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.优化V3接口代码，可直接在Controller类中private final WXPayServer wxPayV3Server;方法，不需要每次使用时实例化对象，缺点是回调地址字段需要手动填写。&#10;注意：V3接口一些方法回调地址必须填写，不填写会报错，例如V3统一下单接口，详细需要填写字段方法请自行查看官方文档。&#10;2.V3接口增加微信小程序登录接口，获取用户手机号接口（此为新版获取手机号接口）" />
   </component>
 </project>

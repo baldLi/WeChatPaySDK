@@ -25,7 +25,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getAppID() {
-		return "wxe5003b0506231a6a";
+		return "";
 	}
 
 	/**
@@ -34,7 +34,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getMchID() {
-		return "1613234601";
+		return "";
 	}
 
 	/**
@@ -43,7 +43,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getKey() {
-		return "YueXiangHuTongsharedwheelchair12";
+		return "";
 	}
 
 	/**
