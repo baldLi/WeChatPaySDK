@@ -34,7 +34,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getMchID() {
-		return "";
+		return " ";
 	}
 
 	/**
@@ -43,7 +43,7 @@ public class MyV2Config extends WXPayV2Config {
 	 */
 	@Override
 	public String getKey() {
-		return "";
+		return " ";
 	}
 
 	/**
