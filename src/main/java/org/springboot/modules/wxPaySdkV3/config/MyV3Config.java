@@ -23,12 +23,12 @@ public class MyV3Config extends WXPayV3Config {
 
 	@Override
 	public String getAppID() {
-		return " ";
+		return "";
 	}
 
 	@Override
 	public String getMchID() {
-		return " ";
+		return "";
 	}
 
 	@Override
